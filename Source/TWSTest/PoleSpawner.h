@@ -27,15 +27,12 @@ public:
 	UPROPERTY(VisibleAnywhere)
 	USplineComponent* Spline;
 
-	// Клас стовпа
 	UPROPERTY(EditAnywhere, Category = "Setup")
 	TSubclassOf<ATWSBasePole> PoleClass;
 
-	// Клас кабеля
 	UPROPERTY(EditAnywhere, Category = "Setup")
 	TSubclassOf<ATWSCableActor> CableClass;
 
-	// Відстань між стовпами
 	UPROPERTY(EditAnywhere, Category = "Setup")
 	float DistanceBetweenPoles = 1000.f;
 

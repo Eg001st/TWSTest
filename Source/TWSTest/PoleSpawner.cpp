@@ -67,7 +67,6 @@ void APoleSpawner::SpawnPolesAndCables()
 
 void APoleSpawner::SpawnCables()
 {
-	// Натягуємо кабелі між парами стовпів
 	for (int32 i = 0; i < SpawnedPoles.Num() - 1; ++i)
 	{
 		const ATWSBasePole* StartPole = SpawnedPoles[i];
